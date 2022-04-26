@@ -1,0 +1,22 @@
+crackme 50pts
+-------------------------------------
+Security through obscurity is no match for you!
+
+Author: novafacing
+Difficulty: Easy
+crackmeSize: 16.20 KB
+MD5: f956a20c692c4af26607d5109180b58f
+-------------------------------------
+binary to download; no remote connect options
+prompt asks for "Product Key> "
+-------------------------------------
+64 bit, dlinked
+no canary
+no pie
+no stripping
+
+ghidra
+-------------------------------------
+main() using 'fgets'
+user input compared to var using check()
+check() has param_q array: bctf{133&_letmein_123}

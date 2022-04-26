@@ -1,0 +1,28 @@
+crackme_2 50pts
+-------------------------------------
+Time for some basic algebra...
+
+Author: novafacing
+Difficulty: Easy
+crackme_2Size: 16.55 KB
+MD5: 6daacff664a4ac7ca16a19d81378d979
+-------------------------------------
+binary to download; no remote connect options
+prompt asks for "Product Key> " like w/crackme
+-------------------------------------
+64 bit, dlinked
+yes canary
+yes NX
+yes pie
+no stripping
+
+ghidra
+-------------------------------------
+main() using 'fgets' as w/crackme
+user input compared to var using check() again
+check() has param_l array but it is different
+
+-------------------------------------
+check()
+bctf{4lg3b
+	!}
